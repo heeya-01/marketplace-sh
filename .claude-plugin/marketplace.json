@@ -12,7 +12,7 @@
       "author": {
         "name": "YG Choi"
       },
-      "path": "prd-plugin",
+      "source": "./prd-plugin/",
       "category": "productivity",
       "keywords": ["prd", "requirements", "ux", "planning", "multi-agent"]
     }
