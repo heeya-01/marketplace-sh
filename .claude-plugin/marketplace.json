@@ -1,0 +1,11 @@
+{
+  "name": "Heeya Marketplace",
+  "description": "YG의 Claude Code 플러그인 마켓플레이스",
+  "plugins": [
+    {
+      "name": "PRD Generator",
+      "path": "prd-plugin",
+      "description": "간략한 기능 설명만 입력하면 BA, 기획자, QA 에이전트가 협업하여 PRD를 자동 생성합니다."
+    }
+  ]
+}
