@@ -1,6 +1,10 @@
 {
-  "name": "Heeya Marketplace",
+  "name": "heeya-marketplace",
   "description": "YG의 Claude Code 플러그인 마켓플레이스",
+  "owner": {
+    "name": "YG Choi",
+    "email": "im@ygchoi.com"
+  },
   "plugins": [
     {
       "name": "PRD Generator",
