@@ -2,14 +2,19 @@
   "name": "heeya-marketplace",
   "description": "YG의 Claude Code 플러그인 마켓플레이스",
   "owner": {
-    "name": "YG Choi",
-    "email": "im@ygchoi.com"
+    "name": "YG Choi"
   },
   "plugins": [
     {
-      "name": "PRD Generator",
-      "path": "prd-plugin",
-      "description": "간략한 기능 설명만 입력하면 BA, 기획자, QA 에이전트가 협업하여 PRD를 자동 생성합니다."
+      "name": "prd-plugin",
+      "description": "간략한 기능 설명만 입력하면 BA, 기획자, QA 에이전트가 협업하여 PRD를 자동 생성합니다.",
+      "version": "0.1.0",
+      "author": {
+        "name": "YG Choi"
+      },
+      "source": "./prd-plugin/",
+      "category": "productivity",
+      "keywords": ["prd", "requirements", "ux", "planning", "multi-agent"]
     }
   ]
 }
