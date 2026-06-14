@@ -1,18 +1,9 @@
 {
   "name": "prd-plugin",
   "version": "0.1.0",
-  "description": "간략한 기능 설명으로 PRD를 자동 생성하는 플러그인. BA → 기획자 → QA 3단계 에이전트 협업.",
-  "author": "YG Choi",
-  "skills": [
-    {
-      "name": "prd",
-      "path": "skills/prd/SKILL.md",
-      "description": "기능 설명을 입력받아 PRD 문서를 생성합니다."
-    }
-  ],
-  "agents": [
-    { "name": "ba", "path": "agents/ba.md" },
-    { "name": "planner", "path": "agents/planner.md" },
-    { "name": "qa", "path": "agents/qa.md" }
-  ]
+  "description": "간략한 기능 설명만 입력하면 BA, 기획자, QA 에이전트가 협업하여 PRD를 자동 생성합니다.",
+  "author": {
+    "name": "YG Choi"
+  },
+  "keywords": ["prd", "requirements", "ux", "planning", "multi-agent"]
 }
