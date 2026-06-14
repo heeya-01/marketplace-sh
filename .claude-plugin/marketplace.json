@@ -8,11 +8,10 @@
     {
       "name": "prd-plugin",
       "description": "간략한 기능 설명만 입력하면 BA, 기획자, QA 에이전트가 협업하여 PRD를 자동 생성합니다.",
-      "version": "0.1.0",
       "author": {
         "name": "YG Choi"
       },
-      "source": "./prd-plugin/",
+      "source": "./prd-plugin",
       "category": "productivity",
       "keywords": ["prd", "requirements", "ux", "planning", "multi-agent"]
     }
